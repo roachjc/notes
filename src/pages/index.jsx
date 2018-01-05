@@ -19,15 +19,14 @@ class Index extends React.Component {
           <IndexHeadContainer>
             <Navigation />
             <Hero>
-              <img src={config.siteLogo} width='150px' />
+              { /*<img src={config.siteLogo} width='150px' />*/ }
               <h1>{config.siteTitle}</h1>
               <h4>{config.siteDescription}</h4>
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
-            <h2>A Gatsby Template for Content</h2>
-            <p>Made for modern documentation sites. Table of Contents automatically generated from markdown files. </p>
-            <CtaButton to={'/lesson-one'}>See Your First Post</CtaButton>
+            <CtaButton to={'/notes'}>Go to the notes</CtaButton>
+            <p>Built with gatsby and gatsby-starter-docs</p>
           </BodyContainer>
         </main>
       </div>
@@ -54,6 +53,7 @@ const BodyContainer = styled.div`
   padding: ${props => props.theme.sitePadding};
   max-width: ${props => props.theme.contentWidthLaptop};
   margin: 0 auto;
+  text-align: center;
 `
 
 

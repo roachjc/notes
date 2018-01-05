@@ -50,7 +50,6 @@ class TableOfContents extends React.Component {
             <Link to={node.path}>
               <li>
                 <span>
-                  <p>{node.chapter}.{node.lessonNumber} &nbsp;</p>
                   <h6>{node.title}</h6>
                 </span>
               </li>
