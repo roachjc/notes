@@ -1,11 +1,12 @@
 ---
-title: "Async Rendering"
+title: "Plugins"
 lesson: 1
-chapter: 3
+chapter: 5
 date: "01/04/2018"
 category: "tech"
 type: "lesson"
 tags:
-    - react
-    - react-16
+    - build-tools
+    - performance
 ---
+

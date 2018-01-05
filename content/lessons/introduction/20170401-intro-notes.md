@@ -2,7 +2,7 @@
 title: "Notes"
 lesson: 1
 chapter: 1
-date: "01/04/2017"
+date: "01/04/2018"
 category: "tech"
 type: "lesson"
 tags:
@@ -16,4 +16,4 @@ It is entirely for my own benefit and so may skim over some things I feel I know
 
 ![Me in Joshua Tree NP](../assets/joshua.jpeg)
 
-This is me. Hi 👋
+This is me. Hi! 👋

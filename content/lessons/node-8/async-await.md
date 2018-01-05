@@ -1,11 +1,12 @@
 ---
-title: "Async Rendering"
+title: "Async Await"
 lesson: 1
-chapter: 3
+chapter: 4
 date: "01/04/2018"
 category: "tech"
 type: "lesson"
 tags:
-    - react
-    - react-16
+    - async
+    - promises
+    - es6
 ---

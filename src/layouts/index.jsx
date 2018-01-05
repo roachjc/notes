@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import styled, {ThemeProvider} from "styled-components"
 import config from "../../data/SiteConfig";
 import "./css/index.css";
-import "./css/prism-okaidia.css"
+import "./css/prism-atom-dark.css"
 import theme from './theme'
 
 
