@@ -49,5 +49,5 @@ module.exports = {
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
   // TODO: Move this literally anywhere better.
-  toCChapters: ["", "Introduction", "Redux", "React 16", "Node 8", "Parcel.js"] // Used to generate the Table Of Contents. Index 0 should be blank.
+  toCChapters: ["", "Introduction", "Redux", "React 16", "Node 8", "Parcel.js", "Webpack 4"] // Used to generate the Table Of Contents. Index 0 should be blank.
 };
