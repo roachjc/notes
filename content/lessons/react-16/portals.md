@@ -97,4 +97,4 @@ ReactDOM.render(<App />, appRoot);
 ```
 Note that the position of the portal component remains unchanged inside the react tree. It therefore works in exactly the same way. Its context is unchanged and has access to state and children in the same way.
 
-As a result, events fired in a Portal will propogate through the **React tree** if uncaught - not the DOM tree.
+As a result, events fired in a Portal will propagate through the **React tree** if uncaught - not the DOM tree.
