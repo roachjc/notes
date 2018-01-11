@@ -33,7 +33,7 @@ import MyPage from "./MyPage"
 
 hydrate(<MyPage/>, document.getElementById("content"));
 ```
-Using ReactDOM.render to hydrate server rendered string is deprecated, to be removed v17. ReactDOM.Hydrate allows return of arrays, strings and numbers from components to be SSR'd. For example, this would not be possible using `render`:
+Using ReactDOM.render to hydrate server rendered string is deprecated, to be removed v17. ReactDOM.hydrate allows return of arrays, strings and numbers from components to be SSR'd. For example, this would not be possible using `render`:
 ```javascript
 class myComponent extends Component {
   render() {
